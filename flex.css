@@ -1,0 +1,137 @@
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: #73dab2;
+}
+
+.flex {
+    margin: 10px;
+}
+.flexOne{
+    display: flex;
+    flex-direction: row;
+   gap: 5px;
+}
+.flexTwo{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.flexThree{
+    display: flex;
+    flex-direction: row-reverse;
+   gap: 5px;
+justify-content: flex-end;
+
+}
+.flexFour{
+    display: flex;
+    width: 350px;
+    gap: 5px;
+    flex-flow: wrap;
+    background: #3d8b6d;
+}
+.flexFive{
+    width: 350px;
+    display: flex;
+gap: 2px;
+
+}
+.flexFive .item{
+    width: 100px;
+    height: 100px;
+    display: flex;
+gap: 2px;
+background: #0b6643;
+}
+#grow{
+  flex-grow: 2;
+}
+.flexSix{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+   
+}
+ .flexSix .one{
+    display: flex;
+    justify-content: space-around;
+    gap: 2px;
+
+}
+.flexSix .two{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    background-color:  #d6d6d6;
+} 
+.flexSix .three{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    
+} 
+.flexSeven{
+    height: 400px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+  
+
+}
+.flexSeven .one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.flexSeven .two{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+}
+.flexSeven .three{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.flexSeven .four{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.flexEight{
+    height: 400px;
+    width: 300px;
+    background:#eeeeee ;
+    display: flex;
+
+
+}
+.flexEight .one{
+    display: flex;
+    align-items: center;
+
+}
+.flexEight .two{
+    display: flex;
+    align-items: end;
+
+}
+.flexEight .three{
+    display: flex;
+    align-items: start;
+
+}
+.flexNine{
+    display: flex;
+    width: 450px;
+    height: 250px;
+    background: #eeeeee;
+    align-items: start;
+    justify-content: space-evenly;
+
+}
+.flexNine #special{
+     align-self: self-end; 
+}
